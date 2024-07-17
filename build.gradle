@@ -22,7 +22,7 @@ loom {
 	splitEnvironmentSourceSets()
 
 	mods {
-		"xp-vault" {
+		"xpvault" {
 			sourceSet sourceSets.main
 			sourceSet sourceSets.client
 		}

@@ -1,18 +1,18 @@
 {
 	"schemaVersion": 1,
-	"id": "xp-vault",
+	"id": "xpvault",
 	"version": "${version}",
 	"name": "XP Vault",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "This mod allows players to store their experience points in a Vault for future use.",
 	"authors": [
-		"Me!"
+		"Amelco"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "mailto:contato@matheusamelco.com",
+		"sources": "https://github.com/MatheusAmelco/xp-vault"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/xp-vault/icon.png",
+	"icon": "assets/xpvault/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
@@ -23,9 +23,9 @@
 		]
 	},
 	"mixins": [
-		"xp-vault.mixins.json",
+		"xpvault.mixins.json",
 		{
-			"config": "xp-vault.client.mixins.json",
+			"config": "xpvault.client.mixins.json",
 			"environment": "client"
 		}
 	],

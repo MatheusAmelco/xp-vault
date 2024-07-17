@@ -1,1 +1,1 @@
-# xp-vault
+# XP Vault
